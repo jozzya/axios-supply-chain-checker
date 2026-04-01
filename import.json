@@ -1,0 +1,8 @@
+[
+  { "package": "axios", "version": "1.14.1", "severity": "CRITICAL", "note": "Compromised - deploys cross-platform RAT via phantom dependency" },
+  { "package": "axios", "version": "0.30.4", "severity": "CRITICAL", "note": "Compromised - deploys cross-platform RAT via phantom dependency" },
+  { "package": "plain-crypto-js", "version": "4.2.1", "severity": "CRITICAL", "note": "Phantom dependency - RAT dropper payload (postinstall: node setup.js)" },
+  { "package": "plain-crypto-js", "version": "4.2.0", "severity": "HIGH", "note": "Clean decoy published to build registry history before attack" },
+  { "package": "@shadanai/openclaw", "version": "*", "severity": "CRITICAL", "note": "Fork with plain-crypto-js hidden in vendored path" },
+  { "package": "@qqbrowser/openclaw-qbot", "version": "0.0.130", "severity": "CRITICAL", "note": "Ships tampered axios@1.14.1 pre-baked in node_modules" }
+]
